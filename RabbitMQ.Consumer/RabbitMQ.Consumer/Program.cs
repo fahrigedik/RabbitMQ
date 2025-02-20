@@ -36,7 +36,7 @@ consumer.ReceivedAsync += async (object sender, BasicDeliverEventArgs e) =>
 {
     var message = Encoding.UTF8.GetString(e.Body.ToArray());
     Console.WriteLine($"Gelen Mesaj: {message}");
-    await channel.BasicAckAsync(e.DeliveryTag, false);
+    await channel.BasicAckAsync(e.DeliveryTag, false);  
 };
 
 

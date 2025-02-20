@@ -30,7 +30,7 @@ try
 
     // publish a message
     //RabbitMQ kuyruğa atacağı mesajları byte türünden kabul etmektedir. Haliyle mesajları bizim byte'a dönüştürmemiz gerekmektedir.
-    byte[] messageBodyBytes = Encoding.UTF8.GetBytes("Senayı Çok Seviyoruuuuum!");
+    byte[] messageBodyBytes = Encoding.UTF8.GetBytes("Hola RabbitMQ!");
 
     channel.BasicPublishAsync(exchange: "", routingKey: "example-queue", body: messageBodyBytes);
     Console.WriteLine("message is published");
