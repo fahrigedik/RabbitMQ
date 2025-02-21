@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35731.43 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FanoutExchange.Consumer2", "FanoutExchange.Consumer2\FanoutExchange.Consumer2.csproj", "{AF83942B-084E-453B-B048-CB0760C5BCE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF83942B-084E-453B-B048-CB0760C5BCE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF83942B-084E-453B-B048-CB0760C5BCE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF83942B-084E-453B-B048-CB0760C5BCE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF83942B-084E-453B-B048-CB0760C5BCE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34114291-E264-4E18-BF10-ED8A18547C2B}
+	EndGlobalSection
+EndGlobal
